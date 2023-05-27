@@ -62,7 +62,7 @@ def test_d():
     get_weight_mod = 4
 
 
-ser = serial.Serial("COM10", 9600)  # 打开COM10，将波特率配置为115200，其余参数使用默认值
+ser = serial.Serial("COM3", 9600)  # 打开COM10，将波特率配置为115200，其余参数使用默认值
 # the different weight type
 gross_weight = 0.0
 tare_weight = 0.0
@@ -108,3 +108,4 @@ if __name__ == '__main__':
 
 
     workbook.close()  # turn off the excel.it can save this excel
+#
