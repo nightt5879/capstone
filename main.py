@@ -108,5 +108,3 @@ if __name__ == '__main__':
 
 
     workbook.close()  # turn off the excel.it can save this excel
-
-#absbsbsabbsbsabsbsabsbsbsabsbsbs
