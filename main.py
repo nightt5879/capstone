@@ -10,7 +10,6 @@ def read_serial():
     data = ser.read()  # 读一个字
     return data
 
-
 def send_hex(hex_str):
     ser.write(bytes.fromhex(hex_str))
 
@@ -36,7 +35,7 @@ def convert_byte_to_weight(byte_input):
     except  ValueError:  # if ValueError, return 0.0
         weight = 0.0
     return weight
-
+# test
 
 # keyboard control below
 get_weight_mod = 0
@@ -62,7 +61,7 @@ def test_d():
     get_weight_mod = 4
 
 
-ser = serial.Serial("COM3", 9600)  # 打开COM10，将波特率配置为115200，其余参数使用默认值
+ser = serial.Serial("COM5", 9600)  # 打开COM10，将波特率配置为115200，其余参数使用默认值
 # the different weight type
 gross_weight = 0.0
 tare_weight = 0.0
